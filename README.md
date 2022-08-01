@@ -1,8 +1,11 @@
-# Requirements-Installation
-A simple bat script to install packages for python from a "requirements.txt" file.
+# Requirements-Manager
+## Creation
+Move the "requirements_creation.bat" file to the python project and run it in order to generate a "requirements.txt" file for that python project.
+## Installation
+Move the "requirements_installation.bat" file to the python project and run it in order to install the "requirements.txt" file of that python project.
 <br/><br/>
 
-Use the "pipreqs" package in order to create a "requirements.txt" file for a python project.
+The "pipreqs" package is needed in order to create a "requirements.txt" file for a python project.
 
 Install it with: ```pip install pipreqs```
 
